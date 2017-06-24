@@ -1,0 +1,20 @@
+<?xml version="1.0"?>
+<!--
+/**
+ * This file is part of Opengento_Categoryid for Magento.
+ *
+ * @license MIT
+ * @author Adrien Louis-Rossignol
+ * @category Opengento
+ * @package Opengento_Categoryid
+ * @copyright Copyright (c) 2017 Opengento (https://www.opengento.fr/)
+ */
+-->
+<config>
+    <modules>
+        <Opengento_Categoryid>
+            <active>true</active>
+            <codePool>community</codePool>
+        </Opengento_Categoryid>
+    </modules>
+</config>

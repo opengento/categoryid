@@ -1,0 +1,34 @@
+<?xml version="1.0"?>
+<!--
+/**
+ * This file is part of Opengento_Categoryid for Magento.
+ *
+ * @license MIT
+ * @author Adrien Louis-Rossignol
+ * @category Opengento
+ * @package Opengento_Categoryid
+ * @copyright Copyright (c) 2017 Opengento (https://www.opengento.fr/)
+ */
+-->
+<config>
+    <acl>
+        <resources>
+            <admin>
+                <children>
+                    <system>
+                        <children>
+                            <config>
+                                <children>
+                                    <opengento_categoryid translate="title" module="opengento_categoryid">
+                                        <title>Category Tree ID</title>
+                                        <sort_order>100</sort_order>
+                                    </opengento_categoryid>
+                                </children>
+                            </config>
+                        </children>
+                    </system>
+                </children>
+            </admin>
+        </resources>
+    </acl>
+</config>
